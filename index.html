@@ -55,26 +55,39 @@
 <body>
 
 
+
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Flow Matching</h1>
+            <h1 class="title is-1 publication-title">Flow Matching for Conditional Text Generation in a Few Sampling Steps</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="https://taohu.me/" target="_blank">Vincent Tao Hu,</a></span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="https://moore3930.github.io/" target="_blank">Di Wu,</a></span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="https://yukimasano.github.io/" target="_blank">Yuki M. Asano,</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://staff.fnwi.uva.nl/p.s.m.mettes/" target="_blank">Pascal Mettes,</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://basurafernando.github.io/" target="_blank">Basura Fernando,</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="Thttps://scholar.google.de/citations?user=zWbvIUcAAAAJ&hl=en" target="_blank">Björn Ommer,</a>
+                  </span>
+                  <span class="author-block">
+                    <a href="https://www.ceessnoek.info/" target="_blank">Cees G.M. Snoek</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block">LMU Munich, University of Amsterdam, A*STAR<br>EACL 2024</span>
+                   
                   </div>
 
                   <div class="column has-text-centered">
@@ -108,7 +121,7 @@
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (Coming Soon)</span>
                   </a>
                 </span>
 
@@ -156,10 +169,11 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            This is abstract.   This is abstract.
+            Diffusion models are a promising tool for high-quality text generation. However, current models face multiple drawbacks including slow sampling, noise schedule sensitivity, and misalignment between the training and sampling stages. In this paper, we introduce FlowSeq, which bypasses all current drawbacks by leveraging flow matching for conditional text generation. FlowSeq can generate text in a few steps by training with a novel anchor loss, alleviating the need for expensive hyperparameter optimization of the noise schedule prevalent in diffusion models. We extensively evaluate our proposed method and show competitive performance in tasks such as question generation, open-domain dialogue, and paraphrasing. 
           </p>
 
           <img src="imgs/lfm.png" alt="abstract" width="100%" height="100%">
+          <img src="imgs/method.png" alt="abstract" width="100%" height="100%">
         </div>
       </div>
     </div>
@@ -288,7 +302,17 @@
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
+      <pre><code>@inproceedings{HuEACL2024,
+        title = {Flow Matching for Conditional Text Generation in a Few Sampling Steps},
+        author = {Vincent Tao Hu and Di Wu and Yuki M Asano and Pascal Mettes and Basura Fernando and Björn Ommer and Cees G M Snoek},
+        year = {2024},
+        date = {2024-03-27},
+        urldate = {2024-03-27},
+        booktitle = {EACL},
+        keywords = {},
+        pubstate = {published},
+        tppubtype = {inproceedings}
+        }</code></pre>
     </div>
 </section>
 <!--End BibTex citation -->
